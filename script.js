@@ -88,11 +88,11 @@ function uploadData(data){
 $("h2").text("");
 
     $.ajax({
-        url:"https://southcentralus.api.cognitive.microsoft.com/customvision/v1.0/Prediction/3ab2b8c8-792b-46a0-b8b1-a96059a47a7e/image?iterationId=a48d938b-d6c5-45a8-871d-6872522a34e1",
+        url:"",
 method:"POST",
 beforeSend:function(xhrObj){
 xhrObj.setRequestHeader("Content-Type","image/jpeg");
-xhrObj.setRequestHeader("Prediction-key","192f18248aa540c493558b179dc2c398");
+xhrObj.setRequestHeader("Prediction-key","");
 },
 "async": true,
 "crossDomain": true,
